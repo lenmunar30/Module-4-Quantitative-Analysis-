@@ -10,11 +10,17 @@ You've been tasked with evaluating four new investment options for inclusion in 
 
 ### Import the required libraries and dependencies
 import sys
+
 import fire
+
 from pathlib import Path
+
 import pandas as pd
+
 import csv
+
 import numpy as np
+
 %matplotlib inline
 
 
