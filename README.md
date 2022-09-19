@@ -1,8 +1,24 @@
 # Module-4-Quantitative-Analysis
 
+## Analyzing Portfolio Risk and Return
+
+In this Challenge, you'll assume the role of a quantitative analyst for a FinTech investing platform. This platform aims to offer clients a one-stop online investment solution for their retirement portfolios that’s both inexpensive and high quality. (Think about Wealthfront or Betterment). To keep the costs low, the firm uses algorithms to build each client's portfolio. The algorithms choose from various investment styles and options.
+
+You've been tasked with evaluating four new investment options for inclusion in the client portfolios. Legendary fund and hedge-fund managers run all four selections. (People sometimes refer to these managers as whales, because of the large amount of money that they manage). You’ll need to determine the fund with the most investment potential based on key risk-management metrics: the daily returns, standard deviations, Sharpe ratios, and betas.
+
+## Technologies, libraries and dependencies
+
+### Import the required libraries and dependencies
+import sys
+import fire
+from pathlib import Path
+import pandas as pd
+import csv
+import numpy as np
+%matplotlib inline
 
 
-# Results and Graphs
+## Results and Graphs
 
 ![image](https://user-images.githubusercontent.com/108433370/191062919-6ac8f1f0-c8a5-4404-9996-55d8c2c8d5ed.png)
 
